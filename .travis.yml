@@ -1,6 +1,5 @@
 language: node_js
-node_js:
-    - "11.12.0"
+node_js: stable
 
 sudo: false
 
@@ -20,7 +19,7 @@ notifications:
   # 邮件发送部署结果通知
   email:
     recipients:
-      - snippet@91h5.cc
+      - alex@openpy.org
     on_success: change
     on_failure: always
 
@@ -53,9 +52,9 @@ after_script:
 
 branches:
   only:
-    - dev
+    - master
 env:
- global:
-   - GH_REF: github.com/shenliyang/shenliyang.github.io.git
-   - GITEE_REF: gitee.com/shenliyang/shenliyang.git
+  global:
+    - GH_REF: github.com/Desmond56/desmond56.github.io.git
+#   - GITEE_REF: gitee.com/shenliyang/shenliyang.git
 
