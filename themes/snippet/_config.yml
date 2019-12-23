@@ -41,7 +41,7 @@ rss: /atom.xml
 
 ## Carousel
 carousel:
-  img: 'http://cdn.openpy.org/head-img.jpg'
+  img: 'https://cdn.openpy.org/head-img.jpg'
   url: '' # 广告url
 
 # 各个小工具的设置
@@ -142,8 +142,8 @@ branding: "人生苦短"
 
 ## 设置banner背景图片
 banner:
-    img: http://snippet.shenliyang.com/img/banner.jpg
-    # img: http://cdn.openpy.org/60065.jpg
+#    img: http://snippet.shenliyang.com/img/banner.jpg
+     img: https://cdn.openpy.org/60065.jpg
 
 ## 首页列表底部面板
 homePanel: true
@@ -181,8 +181,8 @@ declaration:
 
 ## 文章打赏
 reward:
-  alipay: http://cdn.openpy.org/alipay.jpg
-  wepay: http://cdn.openpy.org/wepay.jpg
+  alipay: https://cdn.openpy.org/alipay.jpg
+  wepay: https://cdn.openpy.org/wepay.jpg
   tip: 赞赏是不耍流氓的鼓励
 
 ## 主题评论
@@ -265,7 +265,7 @@ tencent_analytics:
 baidu_site_verification:
 
 ### 百度自动推送
-baidu_push: false
+baidu_push: true
 
 #网站主题配置
 since: 2017
