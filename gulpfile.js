@@ -17,8 +17,8 @@
         path = require('path'),
         paths = {
             root: './',
-            source: './themes/hexo-theme-snippet/source/' //主题下原文件
-        }
+            source: './themes/snippet/source/' //主题下原文件
+        };
 
     /*====================================================
          开发主题
@@ -47,8 +47,8 @@
 
     // 监听任务-主题开发模式
     gulp.task('dev', function() {
-        gulp.watch(paths.source + 'css/less/*.less', ['less-task']);
-        gulp.watch(paths.source + 'js/*.js', ['js-task']);
+        gulp.watch(paths.source + 'css/less/*.less', gulp.series('less-task'));
+        gulp.watch(paths.source + 'js/*.js', gulp.series('js-task'));
     });
 
 
@@ -102,7 +102,7 @@
     gulp.task('deploy', sequence(['minify-css', 'minify-js'], 'rev', 'minify-html'));
 
     // 部署前代码处理
-    gulp.task('default', ['deploy'], function(e) {
+    gulp.task('default', gulp.series('deploy', function () {
         console.log("[complete] please execute： hexo d");
-    })
+    }));
 })();
