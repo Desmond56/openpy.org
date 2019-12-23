@@ -1,5 +1,5 @@
 ---
-title: go-micro 增加插件(etcd等插件)
+title: go_micro增加插件(etcd等插件)
 date: 2019-12-19 15:09:34
 categories:
 - 后端

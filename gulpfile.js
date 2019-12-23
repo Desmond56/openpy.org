@@ -60,7 +60,8 @@
     gulp.task('minify-css', function() {
         return gulp.src('./public/**/*.css')
             .pipe(autoprefixer({
-                browsers: ['last 10 versions', 'Firefox >= 20', 'Opera >= 36', 'ie >= 9', 'Android >= 4.0', ],
+                // browsers: ['last 10 versions', 'Firefox >= 20', 'Opera >= 36', 'ie >= 9', 'Android >= 4.0', ],
+                // browsers: ['defaults'],
                 cascade: true, //是否美化格式
                 remove: false //是否删除不必要的前缀
             }))
@@ -99,10 +100,12 @@
     });
 
     // 同步执行task
-    gulp.task('deploy', sequence(['minify-css', 'minify-js'], 'rev', 'minify-html'));
+    gulp.task('deploy', gulp.series(
+        ['minify-css', 'minify-js', 'rev', 'minify-html']
+    ));
 
     // 部署前代码处理
-    gulp.task('default', gulp.series('deploy', function () {
+    gulp.task('default', gulp.series('deploy', async function () {
         console.log("[complete] please execute： hexo d");
     }));
 })();
