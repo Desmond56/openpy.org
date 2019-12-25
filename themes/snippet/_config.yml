@@ -180,7 +180,7 @@ declaration:
   enable: true
   title: '转载声明'
   tip: |-
-      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Alex</a>
 
 ## 文章打赏
 reward:
@@ -195,7 +195,7 @@ valine:
    enable: true
    appId: cSG8MGyJl2va2itbqagX3T4W-gzGzoHsz
    appKey: MSMLOt9WQqU8OQPD4XJPEmlq
-   placeholder: 说点什么吧
+   placeholder: 如有任何疑问,请评论,本插件无需登录,如想得到恢复,请在上方填写邮箱
    notify: false
    verify: true
    avatar: mm
