@@ -45,7 +45,7 @@ rss: /atom.xml
 ## Carousel
 carousel:
   img: 'https://cdn.openpy.org/head-img.jpg'
-  url: '' # 广告url
+  url: 'https://s.click.taobao.com/9f870sv' # 广告url
 
 # 各个小工具的设置
 
