@@ -145,7 +145,7 @@ branding: "人生苦短"
 
 ## 设置banner背景图片
 banner:
-     img: https://cdn.openpy.org/header.jpg
+     img: https://cdn.openpy.org/header.jpeg
 
 ## 首页列表底部面板
 homePanel: true
