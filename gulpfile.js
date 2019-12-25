@@ -82,13 +82,15 @@
     gulp.task('minify-html', function() {
         return gulp.src('./public/**/*.html')
             .pipe(htmlclean())
-            .pipe(htmlmin({
-                removeComments: true, //清除HTML注释
-                collapseWhitespace: true, //压缩HTML
-                minifyJS: true, //压缩页面JS
-                minifyCSS: true, //压缩页面CSS
-                minifyURLs: true
-            }))
+            // .pipe(htmlmin({
+                // ignoreCustomFragments: [ (/\<\%[^\%]*?\%\>(\s)?/g) ],
+                // removeComments: true, //清除HTML注释
+                // collapseWhitespace: true, //压缩HTML
+                // minifyJS: true, //压缩页面JS
+                // minifyCSS: true, //压缩页面CSS
+                // minifyURLs: true
+
+            // }))
             .pipe(gulp.dest('./public'));
     });
 
