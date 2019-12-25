@@ -7,6 +7,7 @@ categories:
 tags:
 - ubuntu开机动画
 - 紫色锁屏
+img: https://cdn.openpy.org/ubuntu-logo.jpg
 ---
 #### 1. Ubuntu修改开机动画
 ##### 1.1 安装全套动画
