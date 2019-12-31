@@ -1,5 +1,5 @@
 ---
-title: aws两个账号间服务器使用内网通信
+title: aws两个账号间服务器使用内网通信(VPC Peering)
 categories:
   - Linux
   - 云服务器
