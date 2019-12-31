@@ -8,5 +8,5 @@ tags:
   - aws vpc
 comments: true
 date: 2019-12-31 17:52:14
-img:
+img: https://cdn.openpy.org/awscloud.svg
 ---
