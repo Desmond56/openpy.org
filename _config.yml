@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://openpy.org
+url: https://openpy.org
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,8 +98,12 @@ theme: snippet
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
-  repo: 'git@github.com:desmond56/desmond56.github.io.git'
+  - type: 'git'
+    repo: 'git@github.com:desmond56/desmond56.github.io.git'
+    branch: master
+  - type: git
+    repo: 'git@gitee.com:Desmond_56/Desmond_56.git'
+    branch: master
 
 # 生成json搜索
 jsonContent:
