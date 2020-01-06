@@ -7,6 +7,7 @@ tags:
   - VPC Peering
   - aws vpc
 comments: true
+img: 'https://cdn.openpy.org/awscloud.svg'
+abbrlink: 7537ba3d
 date: 2019-12-31 17:52:14
-img: https://cdn.openpy.org/awscloud.svg
 ---

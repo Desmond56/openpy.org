@@ -1,11 +1,12 @@
 ---
 title: go-micro增加插件
-date: 2019-12-23 18:59:44
 tags:
-- go-micro
+  - go-micro
 categories:
-- 后端
-- Golang
+  - 后端
+  - Golang
+abbrlink: 8f4538c0
+date: 2019-12-23 18:59:44
 ---
 增加etcdv3
 在$GOPATH/src/github.com/micro/micro下新建plugins.go

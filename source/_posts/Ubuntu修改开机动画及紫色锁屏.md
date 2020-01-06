@@ -1,13 +1,14 @@
 ---
 title: Ubuntu修改开机动画及紫色锁屏
-date: 2019-12-20 10:58:27
 categories:
-- Linux
-- Ubuntu
+  - Linux
+  - Ubuntu
 tags:
-- ubuntu开机动画
-- 紫色锁屏
-img: https://cdn.openpy.org/ubuntu-logo.jpg
+  - ubuntu开机动画
+  - 紫色锁屏
+img: 'https://cdn.openpy.org/ubuntu-logo.jpg'
+abbrlink: ee4c5fa7
+date: 2019-12-20 10:58:27
 ---
 #### 1. Ubuntu修改开机动画
 ##### 1.1 安装全套动画

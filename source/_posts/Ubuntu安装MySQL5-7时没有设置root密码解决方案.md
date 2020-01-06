@@ -1,11 +1,12 @@
 ---
 title: Ubuntu安装MySQL5.7时没有设置root密码解决方案
-date: 2019-12-17 15:33:19
 categories:
-- Linux
-- mysql
+  - Linux
+  - mysql
 tags:
-- mysql5.7
+  - mysql5.7
+abbrlink: 1121b615
+date: 2019-12-17 15:33:19
 ---
 ```shell
 $ sudo vim /etc/mysql/debian.cnf

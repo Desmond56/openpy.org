@@ -1,12 +1,13 @@
 ---
 title: Nginx限流
-date: 2019-12-16 19:22:58
-categories: 
-- Linux
-- nginx
+categories:
+  - Linux
+  - nginx
 tags:
-- nginx限流
-- nginx
+  - nginx限流
+  - nginx
+abbrlink: c8db2ce0
+date: 2019-12-16 19:22:58
 ---
 ### Nginx限流模块包含
 - 连接数限流模块 **ngx_http_limit_conn_module**
