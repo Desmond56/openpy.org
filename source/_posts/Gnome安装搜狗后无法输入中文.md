@@ -11,7 +11,7 @@ tags:
 ---
 
 我用的是Gnome On Wayland 如果是这个桌面的话 是无法读取 ~/.xprofile 中的环境变量，所以请在/etc/environment中加入：
-```bash
+```nginx
 GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
