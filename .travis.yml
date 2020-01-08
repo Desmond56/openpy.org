@@ -56,4 +56,5 @@ branches:
 env:
   global:
     - GH_REF: github.com/Desmond56/desmond56.github.io.git
+    - GITEE_REF: gitee.com/Desmond_56/Desmond_56.git
 
