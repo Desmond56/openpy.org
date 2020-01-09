@@ -8727,7 +8727,7 @@ body.okayNav-loaded {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -38px;
-    background-color: #f6f6f6;
+    /*background-color: #f6f6f6;*/
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
