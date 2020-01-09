@@ -34,7 +34,7 @@ site:
   title: Alex's Blog # 页面title
   favicon: /favicon.png
   board: <p>文章中有任何不足之处，请在评论区中指出</p> # 站点公告
-  copyright: false # 底部版权信息
+  copyright: true # 底部版权信息
 
 # config
 config:
@@ -55,14 +55,14 @@ pagination:
     alwayShow: true
 
 # Sidebar
-sidebar: right
-widgets:
-  - board  
-  - category
-  - tag
-  - tagcloud
-  - archive
-  - recent_posts
+#sidebar: right
+#widgets:
+#  - board
+#  - category
+#  - tag
+#  - tagcloud
+#  - archive
+#  - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:

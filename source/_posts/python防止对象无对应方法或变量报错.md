@@ -6,6 +6,7 @@ categories:
 tags:
   - hasattr
 comments: true
+abbrlink: d7d50464
 date: 2020-01-08 16:14:24
 img:
 ---

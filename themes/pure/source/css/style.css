@@ -1,31 +1,5 @@
 @charset "UTF-8";
 
-/**
- * global variables and mixins
- */
-
-/**
- * font family
- */
-
-/**
- * 
- */
-
-/* Mixins */
-
-/**
- * bootstrap
- */
-
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -261,7 +235,7 @@ th {
 
 html {
   font-size: 10px;
-  -webkit-tap-highlight-color: transparent;
+  /*background-color: #afbac4;*/
 }
 
 input,
@@ -371,7 +345,7 @@ h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #afbac4;
 }
 
 h1 small,
@@ -3258,12 +3232,12 @@ body {
   font-family: "PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
   font-size: 14px;
   line-height: 1.57143;
-  color: #333333;
-  background-color: #fff;
+  color: #afbac4;
+  background-color: #353b43;
 }
 
 a {
-  color: #333333;
+  color: #57cc8a;
   text-decoration: none;
 }
 
@@ -5652,9 +5626,9 @@ pre code {
   background-color: #fbfbfb;
 }
 
-.sidebar {
-  background-color: #fdfdfd;
-}
+/*.sidebar {*/
+/*  background-color: #fdfdfd;*/
+/*}*/
 
 .sidebar .slimContent {
   padding: 20px;
@@ -5912,7 +5886,7 @@ body.no-sidebar .sidebar {
 }
 
 .main .article-list article {
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px dashed rgba(255,255,255,.3);
 }
 
 .main .article-list article:last-child {
@@ -5921,11 +5895,11 @@ body.no-sidebar .sidebar {
 
 .main .article-meta {
   font-size: 13px;
-  color: #999;
+  color: #afbac4;
 }
 
 .main .article-meta a {
-  color: #999;
+  color: #afbac4;
 }
 
 .main .article-meta a:hover {
@@ -5967,7 +5941,7 @@ body.no-sidebar .sidebar {
 
 .widget .widget-title {
   font-size: 18px;
-  color: #000;
+  color: #57cc8a;
 }
 
 .widget time {
@@ -7170,7 +7144,7 @@ body.okayNav-loaded {
 .theme-blue .footer a,
 .theme-green .footer a,
 .theme-purple .footer a {
-  color: rgba(255, 255, 255, 0.75);
+  color: #57cc8a;
 }
 
 .theme-black .header a:focus,
@@ -7299,10 +7273,10 @@ body.okayNav-loaded {
 }
 
 .theme-black .header {
-  background: #1a2433;
-  background: -webkit-linear-gradient(left, #1a2433 0%, #253449 80%, #253449 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#1a2433), color-stop(80%, #253449), to(#253449));
-  background: linear-gradient(to right, #1a2433 0%, #253449 80%, #253449 100%);
+  background: #242930;
+  /*background: -webkit-linear-gradient(left, #242930 0%, #253449 80%, #253449 100%);*/
+  /*background: -webkit-gradient(linear, left top, right top, from(#1a2433), color-stop(80%, #253449), to(#253449));*/
+  /*background: linear-gradient(to right, #242930 0%, #253449 80%, #253449 100%);*/
 }
 
 .theme-blue .header {
@@ -7815,7 +7789,7 @@ body.okayNav-loaded {
     padding: 0;
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
-    border-right: 1px solid #f6f6f6;
+    /*border-right: 1px solid #f6f6f6;*/
     width: 4.16667%;
   }
 
