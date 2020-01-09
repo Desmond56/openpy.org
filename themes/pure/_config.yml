@@ -55,9 +55,9 @@ pagination:
     alwayShow: true
 
 # Sidebar
-#sidebar: right
-#widgets:
-#  - board
+sidebar: right
+widgets:
+  - board
 #  - category
 #  - tag
 #  - tagcloud
