@@ -5501,12 +5501,12 @@ pre .js .function {
 
 pre,
 .highlight {
-  background: #fafafa;
+  background: #272822;
   margin: 10px 0;
   padding: 15px 10px;
   overflow: auto;
   font-size: 13px;
-  color: #4d4d4c;
+  /*color: #4d4d4c;*/
   line-height: 1.5;
 }
 
@@ -5545,7 +5545,7 @@ pre code {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #f6f6f6;
+  /*background-color: #f6f6f6;*/
   padding: 0 10px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
