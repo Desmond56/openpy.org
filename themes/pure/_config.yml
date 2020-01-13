@@ -185,7 +185,7 @@ fb_app_id:  profile
 #
 profile:
   enabled: true # Whether to show profile bar
-  avatar: https://cdn.openpy.org/avatar.jpg
+  avatar: https://cdn.openpy.org/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Alex
   author_title: Developer
