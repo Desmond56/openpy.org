@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: Alex's Blog # 页面title
   favicon: /favicon.png
-  board: <p>文章中有任何不足之处，请在评论区中指出</p> # 站点公告
+  board: <p>如果文章对您有帮助, 请点下广告支持下,非常感谢!!!!</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
