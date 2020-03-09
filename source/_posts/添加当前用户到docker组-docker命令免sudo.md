@@ -1,4 +1,5 @@
 ---
+uuid: 53c5ad62-0e2e-3b94-63e5-16c52138be2a
 title: '添加当前用户到docker组,docker命令免sudo'
 tags:
   - docker

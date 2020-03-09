@@ -1,4 +1,5 @@
 ---
+uuid: 2ec405e2-74ba-2291-aa50-7328ccc89e35
 title: go-micro增加插件
 tags:
   - go-micro

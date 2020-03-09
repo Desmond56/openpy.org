@@ -1,4 +1,5 @@
 ---
+uuid: c2e11b78-f4bc-54d1-e3c7-dbb10b30ab24
 title: Ubuntu安装MySQL5.7时没有设置root密码解决方案
 categories:
   - Linux

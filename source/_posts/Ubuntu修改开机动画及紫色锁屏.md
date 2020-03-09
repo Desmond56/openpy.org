@@ -1,4 +1,5 @@
 ---
+uuid: 6d59dc20-cda2-6005-7b5d-1e2c858ffc5f
 title: Ubuntu修改开机动画及紫色锁屏
 categories:
   - Linux

@@ -1,4 +1,5 @@
 ---
+uuid: cce5b5c3-4ea2-b2e6-e984-d1c94d37bce4
 title: python防止对象无对应方法或变量报错
 categories:
   - 后端

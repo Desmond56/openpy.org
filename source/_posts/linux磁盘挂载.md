@@ -1,4 +1,5 @@
 ---
+uuid: 7603044b-8c58-7d2e-a618-d921c8b1460a
 title: linux磁盘挂载
 categories:
   - Linux
