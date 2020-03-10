@@ -66,7 +66,7 @@ search:
   path: /search.xml
   use: online
 comment:
-  use: false
+  use: gitalk
   disqus_shortname:
   gitalk_client_id: 2940f637db3aa14eb98d
   gitalk_client_secret: 9ddf486c5e61566535f41fbe9dd867a514616f13
