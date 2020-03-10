@@ -68,14 +68,14 @@ search:
 comment:
   use: false
   disqus_shortname:
-  gitalk_client_id:
-  gitalk_client_secret:
-  gitalk_repo:
-  gitalk_owner:
+  gitalk_client_id: 2940f637db3aa14eb98d
+  gitalk_client_secret: 9ddf486c5e61566535f41fbe9dd867a514616f13
+  gitalk_repo: gitalk
+  gitalk_owner: Desmond56
   gitalk_sid_type:
   livere_data_uid:
-  valine_leancloud_app_id: cSG8MGyJl2va2itbqagX3T4W-gzGzoHsz
-  valine_leancloud_app_key: MSMLOt9WQqU8OQPD4XJPEmlq
+  valine_leancloud_app_id:
+  valine_leancloud_app_key:
   valine_placeholder:
   valine_page_size:
   valine_avatar:
