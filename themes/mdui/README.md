@@ -96,7 +96,7 @@ search:
   path: /search.xml
   use: online
 comment:
-  use: false
+  use: gitalk
   disqus_shortname:
   gitalk_client_id:
   gitalk_client_secret:
