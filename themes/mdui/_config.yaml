@@ -1,5 +1,6 @@
 theme_color:
-  primary: indigo
+#  primary: indigo
+  primary: cyan
   accent: pink
 
 notice:
@@ -33,7 +34,7 @@ site_verification:
   google:
   baidu:
 analytics:
-  google_site_id:
+  google_site_id: 155720019
   baidu_site_id:
   cnzz_site_id:
 
