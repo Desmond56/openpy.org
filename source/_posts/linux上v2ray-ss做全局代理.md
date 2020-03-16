@@ -26,6 +26,7 @@ sudo service redsocks restart   #重启redsocks
 sudo systemctl enable redsocks  #开机启动redsocks
 sudo systemctl disable redsocks  #停止开机启动redsocks
 ```
+<!--more-->
 3. 配置redsocks
 编辑redsocks配置文件*/etc/redsocks.conf* 找到redsocks
 ```bash

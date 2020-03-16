@@ -19,6 +19,7 @@ sudo update-alternatives --config default.plymouth # 输入编号选择一个。
 sudo update-initramfs -u
 sudo reboot
 ```
+<!--more-->
 此时开机动画已替换完成, ps:博主选的kubuntu or ubuntu-gnome-logo
 #### 2. 替换紫色锁屏
 在设置中设置的锁屏壁纸貌似只在锁屏的状态下会显示, 当解锁输入密码时,还是那个紫色锁屏,更改方法如下
