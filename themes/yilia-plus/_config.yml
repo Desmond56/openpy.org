@@ -6,10 +6,10 @@ menu:
 
 # subNav-子导航
 subNav:
-  github: "#"
-  gitee: "#" # 码云
-  jianshu: "#" #简书
-  cnblog: "#"
+  github: "https://github.com/Desmond56"
+  gitee: "https://gitee.com/Desmond_56" # 码云
+  jianshu: "https://www.jianshu.com/u/6692d80add73" #简书
+  cnblog: "https://blog.csdn.net/u010532552"
   #blog: "#"
   #csdn: "#"
   #rss: "#"
