@@ -1,8 +1,8 @@
 ﻿# Header-菜单
 menu:
   主页: /
-  Linux: /tags/Linux/
-  随笔: /tags/随笔/
+  Linux: /categories/Linux/
+  区块链: /categories/区块链/
 
 # subNav-子导航
 subNav:
