@@ -272,14 +272,14 @@ friends:
 #    img: https://zhousiwei.gitee.io/ibooks/favicon.ico
 #    #网站简介(可忽略不写)
 #    description: 记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析
-#  GitHub:
-#    url: https://github.com/Desmond56
-#  码云:
-#    url: https://gitee.com/zhousiwei
-#  简书:
-#    url: https://www.jianshu.com/u/02cbf31a043a
-#  CSDN:
-#    url: https://blog.csdn.net/qq_30930805
+  GitHub:
+    url: https://github.com/Desmond56
+  码云:
+    url: https://gitee.com/Desmond_56
+  简书:
+    url: https://www.jianshu.com/u/6692d80add73
+  CSDN:
+    url: https://blog.csdn.net/u010532552
 
 # 关于我
 aboutme: 一个新人区块链开发攻城狮
