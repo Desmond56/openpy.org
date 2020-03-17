@@ -102,7 +102,7 @@ baidu_push: false
 tajs: false
 
 # google
-google_analytics: false
+google_analytics: 'UA-155720019-1'
 google_site_verification: false
 
 # sogou站长验证 http://zhanzhang.sogou.com/
@@ -128,11 +128,11 @@ gitment: false
 #   client_secret:
 
 # 是否使用 Gitalk，https://github.com/gitalk/gitalk
-gitalk: false
-#  owner: 
-#  repo: 
-#  client_id: 
-#  client_secret: 
+gitalk:
+  owner: 'Desmond56'
+  repo: 'gitalk'
+  client_id: '2940f637db3aa14eb98d'
+  client_secret: '9ddf486c5e61566535f41fbe9dd867a514616f13'
 
 # Valine Comment system. https://valine.js.org
 valine:
@@ -166,7 +166,7 @@ canonical: false
 since_year: 2018
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
-about: 用户页面中作者相关的描述性文字，如不需要设为 false
+about: false
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
@@ -190,7 +190,7 @@ ICP_license: 京ICP备16013354号
 
 # Prism Theme, default/coy/okaidia/atom-dark/solarized-light/tomorrow-night
 prism:
-  theme: tomorrow-night
+  theme: atom-dark
 
 # footer.ejs 中 Hosted by 后的链接
 host_link: https://pages.github.com
