@@ -9,7 +9,7 @@ subNav:
   github: "https://github.com/Desmond56"
   gitee: "https://gitee.com/Desmond_56" # 码云
   jianshu: "https://www.jianshu.com/u/6692d80add73" #简书
-  cnblog: "https://blog.csdn.net/u010532552"
+#  cnblog: "https://blog.csdn.net/u010532552"
   #blog: "#"
   #csdn: "#"
   #rss: "#"
@@ -37,12 +37,6 @@ hover_effect:
 
 # RSS订阅(关于如何配置启用:https://www.jianshu.com/p/2aaac7a19736)
 rss: /atom.xml
-
-# 是否需要修改 root 路径
-# 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
-# 请将您的 url 设为 http://yoursite.com/blog 并把 / 设为 /blog/。
-# 新版本已弃用，请在博客根目录文件进行配置
-# root: /
 
 # Content
 

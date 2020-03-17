@@ -10,7 +10,7 @@ abbrlink: f7800f43
 date: 2019-12-17 20:12:03
 ---
 #### 1. 查看linux下的硬盘挂载的空间, 使用空间
-```shell script
+```bash
 df -h
 
 ```

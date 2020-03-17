@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hewxo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia-plus
+theme: indigo-plus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
