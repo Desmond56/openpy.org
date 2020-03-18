@@ -49,7 +49,7 @@ favicon: /img/favicon.ico
 email: alex@openpy.org
 
 # 设置 Android L Chrome 浏览器状态栏颜色
-color: '#3F51B5'
+color: '#3b444f'
 
 # 页面标题
 tags_title: Tags
