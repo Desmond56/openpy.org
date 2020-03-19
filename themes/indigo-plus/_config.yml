@@ -72,7 +72,7 @@ share: true
 # 是否开启打赏，关闭 reward: false
 reward:
   title: 感谢支持！
-  wechat: https://cdn.openpy.org/wepay.jpg     #微信，关闭设为 false
+  wechat: https://cdn.openpy.org/wepay.png     #微信，关闭设为 false
   alipay: https://cdn.openpy.org/alipay.jpg     #支付宝，关闭设为 false
 
 # 是否开启搜索
