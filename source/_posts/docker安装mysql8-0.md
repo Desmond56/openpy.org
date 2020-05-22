@@ -7,10 +7,12 @@ tags:
   - docker
   - mysql8.0
 comments: true
+abbrlink: 1493d95
 date: 2020-05-22 18:06:38
 img:
 ---
 1. 先查看[docker-mysql版本](https://hub.docker.com/_/mysql?tab=description)
+<!--more-->
 2. 拉docker镜像到本地
 ```bash
 sudo docker pull mysql:8.0.20
